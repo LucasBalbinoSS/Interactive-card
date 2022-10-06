@@ -146,6 +146,10 @@ input[type="radio"] {
     color: #fff;
 }
 
+.active:hover {
+    background-color: var(--card-btn-background);
+}
+
 
 /* Card after submitting */
 .card-after-container {
