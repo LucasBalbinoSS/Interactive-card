@@ -35,6 +35,7 @@ function numberGet($alvo) {
 
     $cardAfterQuantity.innerHTML = quantity
     $cardAfterQuantity.style.color = 'currentColor'
+    $cardAfterQuantity.style.textDecoration = 'underline'
 }
 
 // verifica se algum número foi selecionado
