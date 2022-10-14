@@ -65,9 +65,17 @@ function screenChange() {
 
     function buttonClick($alvo) {
         $alvo.addEventListener('click', function() {
-            $cardAfterContainer.style.display = 'block'
-            $cardBeforeContainer.style.display = 'none'
+            hide()
+            show()
         })
+    }
+
+    function hide() {
+        $cardBeforeContainer.style.display = 'none'
+    }
+
+    function show() {
+        $cardAfterContainer.style.display = 'block'
     }
 }
 
